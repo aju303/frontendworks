@@ -1,0 +1,21 @@
+/*tagename/id/classname - basicselectors {
+    property:value;
+    property:value;
+
+}*/
+
+.col{
+    border: 2px solid black;
+    width: 50%;
+    min-height: 200px;
+    
+}
+.col-1{
+    background-color: royalblue;
+}
+.col-2{
+    background-color: plum;
+}
+.col-3{
+    background-color: cadetblue;
+}

@@ -1,0 +1,33 @@
+.section{
+    width: 200px;
+    min-height: 100px;
+    padding: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.header{
+    border: 1px solid black;
+    background-color: paleturquoise;
+    margin-left: auto;
+    margin-top: 20px;
+
+}
+
+.footer{
+    border: 1px solid black;
+    background-color: peachpuff;
+    margin-top: 210px;
+    margin-right: auto;
+}
+
+
+.main{
+    border: 1px solid black;
+    background-color: powderblue;
+    margin-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+

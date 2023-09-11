@@ -1,0 +1,65 @@
+.parent{
+    width: 100%;
+    min-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    border: 1px black;
+    display: grid;
+    grid-template-columns: 1fr 3fr ;
+    grid-template-rows: 200px 500px ;
+    grid-gap: 10px;
+
+    
+}
+
+.child{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    text-indent: 10px;
+    line-height: 2;
+    color: gray;
+}
+
+.col-1{
+    background-color: whitesmoke;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+    
+}
+
+.col-2{
+    background-color: whitesmoke;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    color: gray;
+
+    
+}
+
+.col-3{
+    background-color: whitesmoke;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    color: gray;
+}
+
+.col-4{
+    background-color: whitesmoke;
+}
+
+.col-5{
+    background-color: whitesmoke;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.key-1{
+    padding-top: 15px;
+    color: black;
+}
+
+.c-1{
+    padding-top: 30px;
+}

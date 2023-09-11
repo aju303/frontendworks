@@ -1,0 +1,23 @@
+.parent{
+    border: 1px solid black;
+    width: 80%;
+    height: 400px;
+    background-color: aquamarine;
+}
+
+.child{
+    border: 1px solid brown;
+    width: 30%;
+    height: 200px;
+    float: left;
+}
+
+.child-one{
+    background-color: forestgreen;
+}
+.child-two{
+    background-color: snow;
+}
+.child-three{
+    background-color: olivedrab;
+}

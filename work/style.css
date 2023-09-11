@@ -1,0 +1,38 @@
+.parent{
+    width: 80%;
+    min-height: 300px;
+    border: 1px solid black;
+    background-color:turquoise;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.child{
+   background-color: seagreen;
+   border: 1px solid black;   
+   
+
+}
+
+.col-1{
+    background-color: palegreen;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.col-2{
+    background-color: bisque;
+}
+
+.col-3{
+    background-color: peachpuff;
+}
+
+.col-4{
+    border: none;
+    background-color: paleturquoise;
+}
